@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archive — AI Repo Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bgCanvas"></canvas>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo" style="text-decoration:none;color:inherit">
+      <span class="logo-icon">◈</span>
+      <div>
+        <h1>AI Repo Radar</h1>
+        <p class="tagline">Archive</p>
+      </div>
+    </a>
+  </div>
+</header>
+
+<main class="archive-main">
+  <div class="archive-header">
+    <h2>📅 Archive</h2>
+    <p>Browse past daily snapshots of trending AI repos</p>
+  </div>
+  <div class="date-list" id="dateList">
+    <p style="color:var(--text-muted)">Loading archive...</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-credit">Built by <a href="https://github.com/ysanchay">SanCompany</a></p>
+  </div>
+</footer>
+
+<script>
+async function loadArchive() {
+  const list = document.getElementById('dateList');
+  try {
+    const res = await fetch('data/archive/index.json');
+    const dates = await res.json();
+    if (!dates.length) {
+      list.innerHTML = '<p style="color:var(--text-muted)">No archived dates yet. Check back after the first daily refresh.</p>';
+      return;
+    }
+    list.innerHTML = dates.map(d => `
+      <a href="archive.html?date=${d.date}" class="date-item">
+        <span class="date-item-date">${formatDate(d.date)}</span>
+        <span class="date-item-count">${d.count} repos</span>
+      </a>
+    `).join('');
+  } catch(e) {
+    const current = new Date().toISOString().split('T')[0];
+    list.innerHTML = `
+      <a href="archive.html?date=${current}" class="date-item">
+        <span class="date-item-date">${formatDate(current)} (today)</span>
+        <span class="date-item-count">loading...</span>
+      </a>
+      <p style="color:var(--text-muted);margin-top:1rem">Archive index not yet built. It will populate after the first daily refresh.</p>
+    `;
+  }
+
+  // Check URL for specific date
+  const params = new URLSearchParams(window.location.search);
+  const dateParam = params.get('date');
+  if (dateParam) {
+    loadDate(dateParam);
+  }
+}
+
+async function loadDate(date) {
+  const list = document.getElementById('dateList');
+  try {
+    const res = await fetch(`data/archive/${date}.json`);
+    const repos = await res.json();
+    document.querySelector('.archive-header h2').textContent = `📅 ${formatDate(date)}`;
+    document.querySelector('.archive-header p').textContent = `${repos.length} trending repos`;
+
+    list.innerHTML = repos.map(r => `
+      <a href="repo.html?id=${r.id}" class="date-item" style="flex-direction:column;align-items:flex-start;gap:0.25rem">
+        <span style="font-weight:600">${r.full_name.split('/')[1]}</span>
+        <span style="font-size:0.8rem;color:var(--text-muted)">${r.description.substring(0, 120)}</span>
+        <div style="display:flex;gap:0.75rem;margin-top:0.25rem">
+          <span style="font-size:0.75rem;font-family:mono;color:var(--text-dim)">⭐ ${r.stars >= 1000 ? (r.stars/1000).toFixed(1)+'K' : r.stars}</span>
+          <span style="font-size:0.75rem;font-family:mono;color:var(--accent)">+${r.stars_this_week >= 1000 ? (r.stars_this_week/1000).toFixed(1)+'K/wk' : r.stars_this_week+'/wk'}</span>
+        </div>
+      </a>
+    `).join('');
+  } catch(e) {
+    list.innerHTML = `<p style="color:var(--text-muted)">No data for ${date}. <a href="archive.html">Back to archive</a></p>`;
+  }
+}
+
+function formatDate(d) {
+  return new Date(d + 'T00:00:00').toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+  });
+}
+
+loadArchive();
+
+// Background
+(function(){const c=document.getElementById('bgCanvas'),x=c.getContext('2d');let w,h,ps=[];function r(){w=c.width=innerWidth;h=c.height=innerHeight}r();addEventListener('resize',r);for(let i=0;i<40;i++)ps.push({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.2,vy:(Math.random()-.5)*.2,r:Math.random()*1.2+.3});(function d(){x.clearRect(0,0,w,h);ps.forEach((p,i)=>{p.x+=p.vx;p.y+=p.vy;if(p.x<0)p.x=w;if(p.x>w)p.x=0;if(p.y<0)p.y=h;if(p.y>h)p.y=0;x.beginPath();x.arc(p.x,p.y,p.r,0,Math.PI*2);x.fillStyle='rgba(80,100,140,0.1)';x.fill();for(let j=i+1;j<ps.length;j++){const dx=p.x-ps[j].x,dy=p.y-ps[j].y,dist=Math.sqrt(dx*dx+dy*dy);if(dist<120){x.beginPath();x.moveTo(p.x,p.y);x.lineTo(ps[j].x,ps[j].y);x.strokeStyle='rgba(80,100,140,0.02)';x.lineWidth=.5;x.stroke()}}});requestAnimationFrame(d)})()})();
+</script>
+</body>
+</html>

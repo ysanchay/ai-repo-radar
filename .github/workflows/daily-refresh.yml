@@ -1,0 +1,41 @@
+name: Daily Repo Refresh
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Midnight UTC / 5:30 AM IST
+  workflow_dispatch:      # Manual trigger
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Fetch trending repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/fetch_repos.py
+      
+      - name: Commit updated data
+        run: |
+          git config user.name "AI Repo Radar Bot"
+          git config user.email "bot@aireporadar.dev"
+          git add data/
+          git diff --staged --quiet || git commit -m "📡 Daily refresh: $(date +%Y-%m-%d)"
+          git push
+      
+      - name: Trigger Cloudflare Pages deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          # Trigger deploy hook — set this up in Cloudflare Pages settings
+          # Or use wrangler CLI
+          echo "Deploy triggered via git push to Pages"

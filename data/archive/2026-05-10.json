@@ -1,0 +1,239 @@
+[
+  {
+    "id": 1,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 31200,
+    "stars_this_week": 2840,
+    "velocity_score": 9.1,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm",
+      "code"
+    ],
+    "summary": "AI coding agent that builds full production applications from natural language specs. Uses LLMs to plan, code, debug, and deploy complete apps with minimal human input. Built in Python.",
+    "readme_snippet": "GPT Pilot is an AI developer that builds production-ready apps.\n\n## How it works\n1. You describe your app\n2. GPT Pilot plans the architecture\n3. It codes each component\n4. Tests everything\n5. Deploys\n\n## Features\n- Full-stack apps (React, Node, Python)\n- Database design & migrations\n- Testing & debugging\n- Deployment scripts",
+    "updated_at": "2026-05-09T12:00:00Z",
+    "created_at": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "sglang",
+    "full_name": "sgl-project/sglang",
+    "url": "https://github.com/sgl-project/sglang",
+    "description": "SGLang is a fast serving framework for large language models and vision-language models",
+    "stars": 15200,
+    "stars_this_week": 1890,
+    "velocity_score": 12.4,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "inference",
+      "serving",
+      "tools"
+    ],
+    "summary": "High-performance LLM serving framework with structured generation. Achieves 5x faster inference than vLLM on certain workloads with its RadixAttention mechanism. Built in Python.",
+    "updated_at": "2026-05-10T01:00:00Z",
+    "created_at": "2024-03-15T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 8900,
+    "stars_this_week": 3200,
+    "velocity_score": 36.0,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface",
+      "framework"
+    ],
+    "summary": "Lightweight agent framework from Hugging Face. Agents write and execute Python code to solve tasks. Supports any LLM backend. Code-first design means agents actually work.",
+    "updated_at": "2026-05-09T18:00:00Z",
+    "created_at": "2025-01-20T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "open-reasoner-zero",
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "description": "Open source implementation of DeepSeek-R1 style reasoning with RL",
+    "stars": 6200,
+    "stars_this_week": 4100,
+    "velocity_score": 66.1,
+    "language": "Python",
+    "topics": [
+      "reasoning",
+      "llm",
+      "reinforcement-learning"
+    ],
+    "summary": "Open reproduction of DeepSeek-R1 reasoning capabilities using reinforcement learning. Achieves strong reasoning with open models, narrowing the gap with proprietary systems.",
+    "updated_at": "2026-05-10T02:00:00Z",
+    "created_at": "2025-02-10T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 3400,
+    "stars_this_week": 980,
+    "velocity_score": 28.8,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "llm",
+      "local",
+      "framework"
+    ],
+    "summary": "Agent framework for local LLMs. Function calling, memory, RAG, and web search \u2014 all running locally with quantized models on consumer hardware.",
+    "updated_at": "2026-05-08T09:00:00Z",
+    "created_at": "2024-11-01T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "whisper-turbo",
+    "full_name": "FL33TW00D/whisper-turbo",
+    "url": "https://github.com/FL33TW00D/whisper-turbo",
+    "description": "50x faster Whisper inference with speculative decoding",
+    "stars": 2800,
+    "stars_this_week": 2100,
+    "velocity_score": 75.0,
+    "language": "Python",
+    "topics": [
+      "audio",
+      "speech-to-text",
+      "whisper"
+    ],
+    "summary": "Radically faster Whisper speech recognition using speculative decoding. Real-time transcription on consumer GPUs. Drop-in replacement for OpenAI Whisper.",
+    "updated_at": "2026-05-09T22:00:00Z",
+    "created_at": "2025-03-01T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 5100,
+    "stars_this_week": 1400,
+    "velocity_score": 27.5,
+    "language": "TypeScript",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp",
+      "local"
+    ],
+    "summary": "Cross-session memory engine for AI coding agents. Works with Claude Code, Cursor, Gemini CLI, and OpenClaw. BM25+Vector+Graph hybrid search with auto-forget.",
+    "updated_at": "2026-05-09T14:00:00Z",
+    "created_at": "2025-02-01T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "jan-ai",
+    "full_name": "janhq/jan",
+    "url": "https://github.com/janhq/jan",
+    "description": "Open source ChatGPT alternative that runs 100% offline",
+    "stars": 24200,
+    "stars_this_week": 890,
+    "velocity_score": 3.7,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "desktop",
+      "local",
+      "tools"
+    ],
+    "summary": "Desktop app for running LLMs locally. Clean UI, model library, and inference engine. Supports GGUF models. Open source alternative to ChatGPT desktop.",
+    "updated_at": "2026-05-07T16:00:00Z",
+    "created_at": "2023-08-01T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "llama.cpp",
+    "full_name": "ggml-org/llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "description": "LLM inference in C/C++ \u2014 the backbone of local AI",
+    "stars": 75000,
+    "stars_this_week": 1200,
+    "velocity_score": 1.6,
+    "language": "C++",
+    "topics": [
+      "llm",
+      "inference",
+      "local",
+      "tools"
+    ],
+    "summary": "The foundational C/C++ library for local LLM inference. Powers most local AI tools. Runs anywhere \u2014 CPU, GPU, mobile. Supports GGUF quantized models.",
+    "updated_at": "2026-05-10T03:00:00Z",
+    "created_at": "2023-03-01T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "crawl4ai",
+    "full_name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Open-source LLM-friendly web crawler and scraper",
+    "stars": 18500,
+    "stars_this_week": 3100,
+    "velocity_score": 16.8,
+    "language": "Python",
+    "topics": [
+      "web-scraping",
+      "llm",
+      "tools"
+    ],
+    "summary": "LLM-optimized web crawler that extracts clean, structured content. Perfect for RAG pipelines. Handles JS rendering, authentication, and structured output formats.",
+    "updated_at": "2026-05-09T08:00:00Z",
+    "created_at": "2024-06-01T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes computer vision solutions",
+    "stars": 5400,
+    "stars_this_week": 2800,
+    "velocity_score": 51.9,
+    "language": "Python",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents",
+      "framework"
+    ],
+    "summary": "AI agent that generates complete computer vision solutions from natural language. Codes, trains, and deploys vision models. Handles image classification, detection, and segmentation.",
+    "updated_at": "2026-05-10T00:00:00Z",
+    "created_at": "2025-04-01T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "qwen3",
+    "full_name": "QwenLM/Qwen3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "Qwen3: New generation of language models with thinking and tool use",
+    "stars": 14800,
+    "stars_this_week": 5200,
+    "velocity_score": 35.1,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "reasoning",
+      "multimodal"
+    ],
+    "summary": "Next-gen LLM from Alibaba with native thinking/reasoning modes. Supports multimodal understanding, tool calling, and code execution. State-of-the-art on multiple benchmarks.",
+    "updated_at": "2026-05-09T20:00:00Z",
+    "created_at": "2025-11-15T00:00:00Z"
+  }
+]

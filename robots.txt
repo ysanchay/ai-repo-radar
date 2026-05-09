@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+
+Sitemap: https://usefreetools.dev/sitemap.xml

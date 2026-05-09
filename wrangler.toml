@@ -1,0 +1,14 @@
+name = "ai-repo-radar"
+compatibility_date = "2024-04-01"
+pages_build_output_dir = "."
+
+# Cloudflare Pages — deployed to usefreetools.dev
+# Deploy: npx wrangler pages deploy . --project-name ai-repo-radar
+
+[env.production]
+name = "ai-repo-radar"
+route = { pattern = "usefreetools.dev/*", zone_id = "9c7af386e715bcb3525d65b2d3e27cad" }
+
+[vars]
+SITE_URL = "https://usefreetools.dev"
+SITE_NAME = "AI Repo Radar"
