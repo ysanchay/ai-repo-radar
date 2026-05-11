@@ -1,0 +1,268 @@
+[
+  {
+    "id": 97179,
+    "name": "ollama",
+    "full_name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Get up and running with large language models locally",
+    "stars": 24692,
+    "stars_this_week": 6119,
+    "velocity_score": 24.8,
+    "language": "Go",
+    "topics": [
+      "llm",
+      "local",
+      "tools"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-28T14:49:00Z",
+    "created_at": "2025-10-03T00:00:00Z"
+  },
+  {
+    "id": 58212,
+    "name": "whisper-turbo",
+    "full_name": "FL33TW00D/whisper-turbo",
+    "url": "https://github.com/FL33TW00D/whisper-turbo",
+    "description": "50x faster Whisper inference with speculative decoding",
+    "stars": 1976,
+    "stars_this_week": 433,
+    "velocity_score": 21.9,
+    "language": "Python",
+    "topics": [
+      "audio",
+      "speech-to-text",
+      "whisper"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-28T00:53:00Z",
+    "created_at": "2024-03-24T00:00:00Z"
+  },
+  {
+    "id": 8715,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 1540,
+    "stars_this_week": 314,
+    "velocity_score": 20.4,
+    "language": "Python",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-28T05:35:00Z",
+    "created_at": "2023-04-11T00:00:00Z"
+  },
+  {
+    "id": 90792,
+    "name": "qwen3",
+    "full_name": "QwenLM/Qwen3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "New generation language models with thinking and tool use",
+    "stars": 17741,
+    "stars_this_week": 3606,
+    "velocity_score": 20.3,
+    "language": "C++",
+    "topics": [
+      "llm",
+      "reasoning",
+      "multimodal"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-28T01:18:00Z",
+    "created_at": "2024-08-10T00:00:00Z"
+  },
+  {
+    "id": 42837,
+    "name": "autogen",
+    "full_name": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "Multi-agent conversation framework by Microsoft Research",
+    "stars": 30166,
+    "stars_this_week": 6132,
+    "velocity_score": 20.3,
+    "language": "Rust",
+    "topics": [
+      "agents",
+      "framework",
+      "microsoft"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-28T08:46:00Z",
+    "created_at": "2025-03-23T00:00:00Z"
+  },
+  {
+    "id": 4303,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes complete computer vision solutions",
+    "stars": 6844,
+    "stars_this_week": 1268,
+    "velocity_score": 18.5,
+    "language": "TypeScript",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-28T04:21:00Z",
+    "created_at": "2024-12-04T00:00:00Z"
+  },
+  {
+    "id": 80772,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 952,
+    "stars_this_week": 147,
+    "velocity_score": 15.4,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-28T08:28:00Z",
+    "created_at": "2024-05-07T00:00:00Z"
+  },
+  {
+    "id": 20346,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Open-source LLM app development platform",
+    "stars": 25447,
+    "stars_this_week": 3861,
+    "velocity_score": 15.2,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "platform",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-28T00:28:00Z",
+    "created_at": "2024-12-15T00:00:00Z"
+  },
+  {
+    "id": 90670,
+    "name": "crawl4ai",
+    "full_name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Open-source LLM-friendly web crawler and scraper",
+    "stars": 26507,
+    "stars_this_week": 3778,
+    "velocity_score": 14.3,
+    "language": "TypeScript",
+    "topics": [
+      "web-scraping",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-28T14:13:00Z",
+    "created_at": "2025-01-23T00:00:00Z"
+  },
+  {
+    "id": 15587,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 27350,
+    "stars_this_week": 2692,
+    "velocity_score": 9.8,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-28T07:16:00Z",
+    "created_at": "2025-02-28T00:00:00Z"
+  },
+  {
+    "id": 33202,
+    "name": "aider",
+    "full_name": "paul-gauthier/aider",
+    "url": "https://github.com/paul-gauthier/aider",
+    "description": "AI pair programming in your terminal",
+    "stars": 13915,
+    "stars_this_week": 1301,
+    "velocity_score": 9.3,
+    "language": "Go",
+    "topics": [
+      "coding-agent",
+      "terminal",
+      "llm"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-28T22:46:00Z",
+    "created_at": "2024-08-16T00:00:00Z"
+  },
+  {
+    "id": 94499,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 18322,
+    "stars_this_week": 1078,
+    "velocity_score": 5.9,
+    "language": "TypeScript",
+    "topics": [
+      "agents",
+      "llm",
+      "local"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-28T01:24:00Z",
+    "created_at": "2024-08-18T00:00:00Z"
+  },
+  {
+    "id": 6949,
+    "name": "crewai",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing autonomous AI agents",
+    "stars": 25508,
+    "stars_this_week": 1040,
+    "velocity_score": 4.1,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "framework",
+      "orchestration"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-28T21:12:00Z",
+    "created_at": "2025-01-05T00:00:00Z"
+  },
+  {
+    "id": 15026,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 7879,
+    "stars_this_week": 249,
+    "velocity_score": 3.2,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-28T16:14:00Z",
+    "created_at": "2023-11-13T00:00:00Z"
+  }
+]

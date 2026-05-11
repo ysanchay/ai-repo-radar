@@ -1,0 +1,249 @@
+[
+  {
+    "id": 68324,
+    "name": "exo",
+    "full_name": "exo-explore/exo",
+    "url": "https://github.com/exo-explore/exo",
+    "description": "Run your own AI cluster at home",
+    "stars": 12555,
+    "stars_this_week": 3478,
+    "velocity_score": 27.7,
+    "language": "Python",
+    "topics": [
+      "distributed",
+      "llm",
+      "local"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-03T08:55:00Z",
+    "created_at": "2024-02-12T00:00:00Z"
+  },
+  {
+    "id": 16141,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 11495,
+    "stars_this_week": 3109,
+    "velocity_score": 27.0,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-03T07:04:00Z",
+    "created_at": "2023-07-21T00:00:00Z"
+  },
+  {
+    "id": 93068,
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "Open-source RAG engine",
+    "stars": 29065,
+    "stars_this_week": 7583,
+    "velocity_score": 26.1,
+    "language": "TypeScript",
+    "topics": [
+      "rag",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-03T05:43:00Z",
+    "created_at": "2023-05-01T00:00:00Z"
+  },
+  {
+    "id": 91728,
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "All-in-one AI desktop app",
+    "stars": 4922,
+    "stars_this_week": 880,
+    "velocity_score": 17.9,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "desktop",
+      "rag"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-05-03T02:49:00Z",
+    "created_at": "2025-05-19T00:00:00Z"
+  },
+  {
+    "id": 82682,
+    "name": "crewai",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing autonomous AI agents",
+    "stars": 5115,
+    "stars_this_week": 629,
+    "velocity_score": 12.3,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "framework",
+      "orchestration"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-03T08:57:00Z",
+    "created_at": "2024-10-27T00:00:00Z"
+  },
+  {
+    "id": 83521,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 27518,
+    "stars_this_week": 2731,
+    "velocity_score": 9.9,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-03T04:38:00Z",
+    "created_at": "2023-04-14T00:00:00Z"
+  },
+  {
+    "id": 84209,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 1748,
+    "stars_this_week": 149,
+    "velocity_score": 8.5,
+    "language": "Rust",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-05-03T05:35:00Z",
+    "created_at": "2023-04-19T00:00:00Z"
+  },
+  {
+    "id": 76917,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes complete computer vision solutions",
+    "stars": 19362,
+    "stars_this_week": 1480,
+    "velocity_score": 7.6,
+    "language": "C++",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-05-03T06:29:00Z",
+    "created_at": "2024-06-11T00:00:00Z"
+  },
+  {
+    "id": 6717,
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "Building applications with LLMs through composability",
+    "stars": 27006,
+    "stars_this_week": 1742,
+    "velocity_score": 6.5,
+    "language": "TypeScript",
+    "topics": [
+      "framework",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-03T02:46:00Z",
+    "created_at": "2025-09-17T00:00:00Z"
+  },
+  {
+    "id": 86731,
+    "name": "crawl4ai",
+    "full_name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Open-source LLM-friendly web crawler and scraper",
+    "stars": 15084,
+    "stars_this_week": 829,
+    "velocity_score": 5.5,
+    "language": "Go",
+    "topics": [
+      "web-scraping",
+      "llm",
+      "tools"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-03T12:30:00Z",
+    "created_at": "2024-08-03T00:00:00Z"
+  },
+  {
+    "id": 5239,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 5777,
+    "stars_this_week": 303,
+    "velocity_score": 5.2,
+    "language": "Rust",
+    "topics": [
+      "agents",
+      "llm",
+      "local"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-03T01:34:00Z",
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "id": 81564,
+    "name": "qwen3",
+    "full_name": "QwenLM/Qwen3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "New generation language models with thinking and tool use",
+    "stars": 3084,
+    "stars_this_week": 139,
+    "velocity_score": 4.5,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "reasoning",
+      "multimodal"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-03T23:06:00Z",
+    "created_at": "2025-04-11T00:00:00Z"
+  },
+  {
+    "id": 29471,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 13858,
+    "stars_this_week": 444,
+    "velocity_score": 3.2,
+    "language": "Python",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-03T06:59:00Z",
+    "created_at": "2025-01-04T00:00:00Z"
+  }
+]

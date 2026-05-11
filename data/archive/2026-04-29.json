@@ -1,0 +1,268 @@
+[
+  {
+    "id": 63603,
+    "name": "ollama",
+    "full_name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Get up and running with large language models locally",
+    "stars": 9118,
+    "stars_this_week": 2373,
+    "velocity_score": 26.0,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "local",
+      "tools"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-29T11:48:00Z",
+    "created_at": "2025-01-27T00:00:00Z"
+  },
+  {
+    "id": 31213,
+    "name": "jan-ai",
+    "full_name": "janhq/jan",
+    "url": "https://github.com/janhq/jan",
+    "description": "Open source ChatGPT alternative that runs 100% offline",
+    "stars": 10505,
+    "stars_this_week": 2319,
+    "velocity_score": 22.1,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "desktop",
+      "local"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-29T03:31:00Z",
+    "created_at": "2023-07-01T00:00:00Z"
+  },
+  {
+    "id": 47174,
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "Building applications with LLMs through composability",
+    "stars": 16249,
+    "stars_this_week": 3433,
+    "velocity_score": 21.1,
+    "language": "Rust",
+    "topics": [
+      "framework",
+      "llm",
+      "tools"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-29T22:01:00Z",
+    "created_at": "2024-09-23T00:00:00Z"
+  },
+  {
+    "id": 97568,
+    "name": "open-reasoner-zero",
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "description": "Open source implementation of DeepSeek-R1 style reasoning with RL",
+    "stars": 1977,
+    "stars_this_week": 409,
+    "velocity_score": 20.7,
+    "language": "TypeScript",
+    "topics": [
+      "reasoning",
+      "llm",
+      "reinforcement-learning"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-29T06:59:00Z",
+    "created_at": "2023-09-15T00:00:00Z"
+  },
+  {
+    "id": 21557,
+    "name": "diffusers",
+    "full_name": "huggingface/diffusers",
+    "url": "https://github.com/huggingface/diffusers",
+    "description": "State-of-the-art diffusion models for image and audio generation",
+    "stars": 19061,
+    "stars_this_week": 3456,
+    "velocity_score": 18.1,
+    "language": "Python",
+    "topics": [
+      "vision",
+      "audio",
+      "generation"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-29T04:01:00Z",
+    "created_at": "2024-01-18T00:00:00Z"
+  },
+  {
+    "id": 90310,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 27182,
+    "stars_this_week": 3846,
+    "velocity_score": 14.1,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-29T02:06:00Z",
+    "created_at": "2023-12-21T00:00:00Z"
+  },
+  {
+    "id": 84145,
+    "name": "letta",
+    "full_name": "letta-ai/letta",
+    "url": "https://github.com/letta-ai/letta",
+    "description": "Create LLM agents with long-term memory",
+    "stars": 1166,
+    "stars_this_week": 118,
+    "velocity_score": 10.1,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "memory",
+      "llm"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-29T17:24:00Z",
+    "created_at": "2024-03-25T00:00:00Z"
+  },
+  {
+    "id": 23249,
+    "name": "sglang",
+    "full_name": "sgl-project/sglang",
+    "url": "https://github.com/sgl-project/sglang",
+    "description": "Fast serving framework for LLMs and vision-language models",
+    "stars": 19429,
+    "stars_this_week": 1863,
+    "velocity_score": 9.6,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-29T22:52:00Z",
+    "created_at": "2024-12-16T00:00:00Z"
+  },
+  {
+    "id": 86074,
+    "name": "whisper-turbo",
+    "full_name": "FL33TW00D/whisper-turbo",
+    "url": "https://github.com/FL33TW00D/whisper-turbo",
+    "description": "50x faster Whisper inference with speculative decoding",
+    "stars": 9446,
+    "stars_this_week": 882,
+    "velocity_score": 9.3,
+    "language": "Python",
+    "topics": [
+      "audio",
+      "speech-to-text",
+      "whisper"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-29T08:31:00Z",
+    "created_at": "2023-11-01T00:00:00Z"
+  },
+  {
+    "id": 2825,
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "All-in-one AI desktop app",
+    "stars": 28086,
+    "stars_this_week": 2597,
+    "velocity_score": 9.2,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "desktop",
+      "rag"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-29T12:13:00Z",
+    "created_at": "2025-12-11T00:00:00Z"
+  },
+  {
+    "id": 74309,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Open-source LLM app development platform",
+    "stars": 17820,
+    "stars_this_week": 1490,
+    "velocity_score": 8.4,
+    "language": "Go",
+    "topics": [
+      "llm",
+      "platform",
+      "tools"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-29T12:42:00Z",
+    "created_at": "2023-08-03T00:00:00Z"
+  },
+  {
+    "id": 21193,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 6249,
+    "stars_this_week": 489,
+    "velocity_score": 7.8,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "llm",
+      "local"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-29T03:06:00Z",
+    "created_at": "2024-05-22T00:00:00Z"
+  },
+  {
+    "id": 35856,
+    "name": "exo",
+    "full_name": "exo-explore/exo",
+    "url": "https://github.com/exo-explore/exo",
+    "description": "Run your own AI cluster at home",
+    "stars": 26655,
+    "stars_this_week": 1593,
+    "velocity_score": 6.0,
+    "language": "C++",
+    "topics": [
+      "distributed",
+      "llm",
+      "local"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-29T03:46:00Z",
+    "created_at": "2023-11-26T00:00:00Z"
+  },
+  {
+    "id": 65150,
+    "name": "crawl4ai",
+    "full_name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Open-source LLM-friendly web crawler and scraper",
+    "stars": 13737,
+    "stars_this_week": 537,
+    "velocity_score": 3.9,
+    "language": "Rust",
+    "topics": [
+      "web-scraping",
+      "llm",
+      "tools"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-29T19:30:00Z",
+    "created_at": "2024-08-21T00:00:00Z"
+  }
+]

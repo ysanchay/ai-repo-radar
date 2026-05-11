@@ -1,0 +1,287 @@
+[
+  {
+    "id": 29842,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Open-source LLM app development platform",
+    "stars": 13882,
+    "stars_this_week": 3432,
+    "velocity_score": 24.7,
+    "language": "Go",
+    "topics": [
+      "llm",
+      "platform",
+      "tools"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-22T10:26:00Z",
+    "created_at": "2023-09-17T00:00:00Z"
+  },
+  {
+    "id": 65620,
+    "name": "qwen3",
+    "full_name": "QwenLM/Qwen3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "New generation language models with thinking and tool use",
+    "stars": 26070,
+    "stars_this_week": 6374,
+    "velocity_score": 24.4,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "reasoning",
+      "multimodal"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-22T03:13:00Z",
+    "created_at": "2025-01-26T00:00:00Z"
+  },
+  {
+    "id": 32405,
+    "name": "autogen",
+    "full_name": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "Multi-agent conversation framework by Microsoft Research",
+    "stars": 9664,
+    "stars_this_week": 2081,
+    "velocity_score": 21.5,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "framework",
+      "microsoft"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-22T19:43:00Z",
+    "created_at": "2024-11-10T00:00:00Z"
+  },
+  {
+    "id": 31611,
+    "name": "crewai",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing autonomous AI agents",
+    "stars": 7782,
+    "stars_this_week": 1644,
+    "velocity_score": 21.1,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "framework",
+      "orchestration"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-22T08:22:00Z",
+    "created_at": "2025-02-27T00:00:00Z"
+  },
+  {
+    "id": 93454,
+    "name": "text-generation-webui",
+    "full_name": "oobabooga/text-generation-webui",
+    "url": "https://github.com/oobabooga/text-generation-webui",
+    "description": "Gradio web UI for large language models",
+    "stars": 21627,
+    "stars_this_week": 4491,
+    "velocity_score": 20.8,
+    "language": "C++",
+    "topics": [
+      "llm",
+      "webui",
+      "local"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-22T13:28:00Z",
+    "created_at": "2023-01-18T00:00:00Z"
+  },
+  {
+    "id": 84047,
+    "name": "whisper-turbo",
+    "full_name": "FL33TW00D/whisper-turbo",
+    "url": "https://github.com/FL33TW00D/whisper-turbo",
+    "description": "50x faster Whisper inference with speculative decoding",
+    "stars": 15409,
+    "stars_this_week": 3115,
+    "velocity_score": 20.2,
+    "language": "Python",
+    "topics": [
+      "audio",
+      "speech-to-text",
+      "whisper"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-22T21:52:00Z",
+    "created_at": "2023-01-09T00:00:00Z"
+  },
+  {
+    "id": 71514,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 9697,
+    "stars_this_week": 1842,
+    "velocity_score": 19.0,
+    "language": "Rust",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-22T01:13:00Z",
+    "created_at": "2025-08-06T00:00:00Z"
+  },
+  {
+    "id": 59377,
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "All-in-one AI desktop app",
+    "stars": 12344,
+    "stars_this_week": 2182,
+    "velocity_score": 17.7,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "desktop",
+      "rag"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-22T21:37:00Z",
+    "created_at": "2024-05-10T00:00:00Z"
+  },
+  {
+    "id": 65880,
+    "name": "ollama",
+    "full_name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Get up and running with large language models locally",
+    "stars": 18178,
+    "stars_this_week": 2349,
+    "velocity_score": 12.9,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "local",
+      "tools"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-22T16:54:00Z",
+    "created_at": "2024-02-06T00:00:00Z"
+  },
+  {
+    "id": 23457,
+    "name": "open-reasoner-zero",
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "description": "Open source implementation of DeepSeek-R1 style reasoning with RL",
+    "stars": 1914,
+    "stars_this_week": 231,
+    "velocity_score": 12.1,
+    "language": "Rust",
+    "topics": [
+      "reasoning",
+      "llm",
+      "reinforcement-learning"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-22T11:03:00Z",
+    "created_at": "2023-07-06T00:00:00Z"
+  },
+  {
+    "id": 60979,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 20910,
+    "stars_this_week": 2369,
+    "velocity_score": 11.3,
+    "language": "TypeScript",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-22T04:30:00Z",
+    "created_at": "2023-09-10T00:00:00Z"
+  },
+  {
+    "id": 45938,
+    "name": "jan-ai",
+    "full_name": "janhq/jan",
+    "url": "https://github.com/janhq/jan",
+    "description": "Open source ChatGPT alternative that runs 100% offline",
+    "stars": 1174,
+    "stars_this_week": 131,
+    "velocity_score": 11.2,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "desktop",
+      "local"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-22T15:37:00Z",
+    "created_at": "2023-09-09T00:00:00Z"
+  },
+  {
+    "id": 40524,
+    "name": "letta",
+    "full_name": "letta-ai/letta",
+    "url": "https://github.com/letta-ai/letta",
+    "description": "Create LLM agents with long-term memory",
+    "stars": 17273,
+    "stars_this_week": 1365,
+    "velocity_score": 7.9,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "memory",
+      "llm"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-22T12:23:00Z",
+    "created_at": "2024-10-18T00:00:00Z"
+  },
+  {
+    "id": 30855,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 7403,
+    "stars_this_week": 380,
+    "velocity_score": 5.1,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-22T09:18:00Z",
+    "created_at": "2023-09-22T00:00:00Z"
+  },
+  {
+    "id": 9831,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 10906,
+    "stars_this_week": 347,
+    "velocity_score": 3.2,
+    "language": "C++",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-22T14:09:00Z",
+    "created_at": "2023-03-10T00:00:00Z"
+  }
+]

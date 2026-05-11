@@ -1,0 +1,287 @@
+[
+  {
+    "id": 17435,
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "All-in-one AI desktop app",
+    "stars": 11939,
+    "stars_this_week": 2789,
+    "velocity_score": 23.4,
+    "language": "Go",
+    "topics": [
+      "llm",
+      "desktop",
+      "rag"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-21T06:00:00Z",
+    "created_at": "2023-10-08T00:00:00Z"
+  },
+  {
+    "id": 68054,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 26713,
+    "stars_this_week": 5430,
+    "velocity_score": 20.3,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-21T01:56:00Z",
+    "created_at": "2023-08-19T00:00:00Z"
+  },
+  {
+    "id": 9710,
+    "name": "crewai",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing autonomous AI agents",
+    "stars": 6042,
+    "stars_this_week": 1223,
+    "velocity_score": 20.2,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "framework",
+      "orchestration"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-21T08:54:00Z",
+    "created_at": "2024-04-01T00:00:00Z"
+  },
+  {
+    "id": 44672,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes complete computer vision solutions",
+    "stars": 10149,
+    "stars_this_week": 1699,
+    "velocity_score": 16.7,
+    "language": "C++",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-21T08:22:00Z",
+    "created_at": "2024-02-19T00:00:00Z"
+  },
+  {
+    "id": 88072,
+    "name": "letta",
+    "full_name": "letta-ai/letta",
+    "url": "https://github.com/letta-ai/letta",
+    "description": "Create LLM agents with long-term memory",
+    "stars": 14336,
+    "stars_this_week": 2359,
+    "velocity_score": 16.5,
+    "language": "Rust",
+    "topics": [
+      "agents",
+      "memory",
+      "llm"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-21T09:27:00Z",
+    "created_at": "2024-09-25T00:00:00Z"
+  },
+  {
+    "id": 14601,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 23829,
+    "stars_this_week": 3375,
+    "velocity_score": 14.2,
+    "language": "Python",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-21T12:02:00Z",
+    "created_at": "2023-09-03T00:00:00Z"
+  },
+  {
+    "id": 91980,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 8859,
+    "stars_this_week": 826,
+    "velocity_score": 9.3,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-21T21:14:00Z",
+    "created_at": "2025-05-12T00:00:00Z"
+  },
+  {
+    "id": 55639,
+    "name": "crawl4ai",
+    "full_name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Open-source LLM-friendly web crawler and scraper",
+    "stars": 5547,
+    "stars_this_week": 489,
+    "velocity_score": 8.8,
+    "language": "C++",
+    "topics": [
+      "web-scraping",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-21T05:20:00Z",
+    "created_at": "2025-02-08T00:00:00Z"
+  },
+  {
+    "id": 58390,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 18310,
+    "stars_this_week": 1590,
+    "velocity_score": 8.7,
+    "language": "TypeScript",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-21T02:36:00Z",
+    "created_at": "2024-10-25T00:00:00Z"
+  },
+  {
+    "id": 13010,
+    "name": "text-generation-webui",
+    "full_name": "oobabooga/text-generation-webui",
+    "url": "https://github.com/oobabooga/text-generation-webui",
+    "description": "Gradio web UI for large language models",
+    "stars": 11025,
+    "stars_this_week": 612,
+    "velocity_score": 5.6,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "webui",
+      "local"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-21T02:33:00Z",
+    "created_at": "2024-05-07T00:00:00Z"
+  },
+  {
+    "id": 80696,
+    "name": "jan-ai",
+    "full_name": "janhq/jan",
+    "url": "https://github.com/janhq/jan",
+    "description": "Open source ChatGPT alternative that runs 100% offline",
+    "stars": 7408,
+    "stars_this_week": 376,
+    "velocity_score": 5.1,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "desktop",
+      "local"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-21T18:52:00Z",
+    "created_at": "2023-09-06T00:00:00Z"
+  },
+  {
+    "id": 60995,
+    "name": "exo",
+    "full_name": "exo-explore/exo",
+    "url": "https://github.com/exo-explore/exo",
+    "description": "Run your own AI cluster at home",
+    "stars": 16577,
+    "stars_this_week": 845,
+    "velocity_score": 5.1,
+    "language": "Rust",
+    "topics": [
+      "distributed",
+      "llm",
+      "local"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-21T15:10:00Z",
+    "created_at": "2023-11-18T00:00:00Z"
+  },
+  {
+    "id": 26669,
+    "name": "open-reasoner-zero",
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "description": "Open source implementation of DeepSeek-R1 style reasoning with RL",
+    "stars": 9482,
+    "stars_this_week": 450,
+    "velocity_score": 4.7,
+    "language": "Python",
+    "topics": [
+      "reasoning",
+      "llm",
+      "reinforcement-learning"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-21T05:29:00Z",
+    "created_at": "2024-04-13T00:00:00Z"
+  },
+  {
+    "id": 13332,
+    "name": "sglang",
+    "full_name": "sgl-project/sglang",
+    "url": "https://github.com/sgl-project/sglang",
+    "description": "Fast serving framework for LLMs and vision-language models",
+    "stars": 3077,
+    "stars_this_week": 101,
+    "velocity_score": 3.3,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-21T20:07:00Z",
+    "created_at": "2023-05-07T00:00:00Z"
+  },
+  {
+    "id": 5717,
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "Open-source RAG engine",
+    "stars": 27322,
+    "stars_this_week": 815,
+    "velocity_score": 3.0,
+    "language": "Python",
+    "topics": [
+      "rag",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-21T13:52:00Z",
+    "created_at": "2023-12-10T00:00:00Z"
+  }
+]

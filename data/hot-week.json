@@ -1,0 +1,254 @@
+[
+  {
+    "id": 69873,
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "Building applications with LLMs through composability",
+    "stars": 27120,
+    "stars_this_week": 8280,
+    "velocity_score": 30.5,
+    "language": "Python",
+    "topics": [
+      "framework",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-10T14:47:00Z",
+    "created_at": "2024-08-24T00:00:00Z",
+    "aggregate_velocity": 32.0,
+    "appearances": 1
+  },
+  {
+    "id": 50510,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 18156,
+    "stars_this_week": 5427,
+    "velocity_score": 29.9,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-10T22:53:00Z",
+    "created_at": "2023-11-10T00:00:00Z",
+    "aggregate_velocity": 30.2,
+    "appearances": 2
+  },
+  {
+    "id": 12355,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 20841,
+    "stars_this_week": 6480,
+    "velocity_score": 31.1,
+    "language": "C++",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-05-09T19:15:00Z",
+    "created_at": "2023-07-16T00:00:00Z",
+    "aggregate_velocity": 29.5,
+    "appearances": 2
+  },
+  {
+    "id": 71420,
+    "name": "crewai",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing autonomous AI agents",
+    "stars": 31596,
+    "stars_this_week": 9359,
+    "velocity_score": 29.6,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "framework",
+      "orchestration"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-05-05T09:47:00Z",
+    "created_at": "2025-03-04T00:00:00Z",
+    "aggregate_velocity": 28.2,
+    "appearances": 3
+  },
+  {
+    "id": 32996,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 27732,
+    "stars_this_week": 6822,
+    "velocity_score": 24.6,
+    "language": "Python",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-05T01:09:00Z",
+    "created_at": "2023-06-08T00:00:00Z",
+    "aggregate_velocity": 26.9,
+    "appearances": 4
+  },
+  {
+    "id": 99,
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "Open-source RAG engine",
+    "stars": 31491,
+    "stars_this_week": 7882,
+    "velocity_score": 25.0,
+    "language": "Python",
+    "topics": [
+      "rag",
+      "llm",
+      "tools"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-05T13:19:00Z",
+    "created_at": "2023-10-24T00:00:00Z",
+    "aggregate_velocity": 26.2,
+    "appearances": 1
+  },
+  {
+    "id": 52366,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 28257,
+    "stars_this_week": 5227,
+    "velocity_score": 18.5,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-06T14:20:00Z",
+    "created_at": "2023-08-14T00:00:00Z",
+    "aggregate_velocity": 25.3,
+    "appearances": 6
+  },
+  {
+    "id": 68336,
+    "name": "ollama",
+    "full_name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Get up and running with large language models locally",
+    "stars": 24153,
+    "stars_this_week": 6198,
+    "velocity_score": 25.7,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "local",
+      "tools"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-06T11:05:00Z",
+    "created_at": "2024-10-23T00:00:00Z",
+    "aggregate_velocity": 24.9,
+    "appearances": 4
+  },
+  {
+    "id": 87366,
+    "name": "aider",
+    "full_name": "paul-gauthier/aider",
+    "url": "https://github.com/paul-gauthier/aider",
+    "description": "AI pair programming in your terminal",
+    "stars": 31709,
+    "stars_this_week": 7111,
+    "velocity_score": 22.4,
+    "language": "TypeScript",
+    "topics": [
+      "coding-agent",
+      "terminal",
+      "llm"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-07T19:21:00Z",
+    "created_at": "2025-11-26T00:00:00Z",
+    "aggregate_velocity": 24.1,
+    "appearances": 5
+  },
+  {
+    "id": 55603,
+    "name": "diffusers",
+    "full_name": "huggingface/diffusers",
+    "url": "https://github.com/huggingface/diffusers",
+    "description": "State-of-the-art diffusion models for image and audio generation",
+    "stars": 29895,
+    "stars_this_week": 4250,
+    "velocity_score": 14.2,
+    "language": "C++",
+    "topics": [
+      "vision",
+      "audio",
+      "generation"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-08T11:10:00Z",
+    "created_at": "2025-05-13T00:00:00Z",
+    "aggregate_velocity": 24.0,
+    "appearances": 3
+  },
+  {
+    "id": 83096,
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "All-in-one AI desktop app",
+    "stars": 31220,
+    "stars_this_week": 7612,
+    "velocity_score": 24.4,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "desktop",
+      "rag"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-05-06T17:27:00Z",
+    "created_at": "2024-07-11T00:00:00Z",
+    "aggregate_velocity": 23.8,
+    "appearances": 5
+  },
+  {
+    "id": 4883,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 22384,
+    "stars_this_week": 6339,
+    "velocity_score": 28.3,
+    "language": "Rust",
+    "topics": [
+      "agents",
+      "llm",
+      "local"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-06T09:02:00Z",
+    "created_at": "2023-04-04T00:00:00Z",
+    "aggregate_velocity": 23.6,
+    "appearances": 2
+  }
+]

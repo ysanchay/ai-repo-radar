@@ -1,0 +1,249 @@
+[
+  {
+    "id": 41007,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 10245,
+    "stars_this_week": 2868,
+    "velocity_score": 28.0,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-05-02T15:57:00Z",
+    "created_at": "2023-10-17T00:00:00Z"
+  },
+  {
+    "id": 52508,
+    "name": "letta",
+    "full_name": "letta-ai/letta",
+    "url": "https://github.com/letta-ai/letta",
+    "description": "Create LLM agents with long-term memory",
+    "stars": 20848,
+    "stars_this_week": 5794,
+    "velocity_score": 27.8,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "memory",
+      "llm"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-05-02T09:14:00Z",
+    "created_at": "2023-09-13T00:00:00Z"
+  },
+  {
+    "id": 16823,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 10573,
+    "stars_this_week": 2807,
+    "velocity_score": 26.5,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-02T17:28:00Z",
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "id": 45056,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 19365,
+    "stars_this_week": 5093,
+    "velocity_score": 26.3,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "llm",
+      "local"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-02T20:41:00Z",
+    "created_at": "2023-05-12T00:00:00Z"
+  },
+  {
+    "id": 75600,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes complete computer vision solutions",
+    "stars": 15726,
+    "stars_this_week": 3470,
+    "velocity_score": 22.1,
+    "language": "C++",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-02T15:00:00Z",
+    "created_at": "2024-03-28T00:00:00Z"
+  },
+  {
+    "id": 5200,
+    "name": "jan-ai",
+    "full_name": "janhq/jan",
+    "url": "https://github.com/janhq/jan",
+    "description": "Open source ChatGPT alternative that runs 100% offline",
+    "stars": 16216,
+    "stars_this_week": 3559,
+    "velocity_score": 21.9,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "desktop",
+      "local"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-05-02T00:11:00Z",
+    "created_at": "2025-02-04T00:00:00Z"
+  },
+  {
+    "id": 41993,
+    "name": "whisper-turbo",
+    "full_name": "FL33TW00D/whisper-turbo",
+    "url": "https://github.com/FL33TW00D/whisper-turbo",
+    "description": "50x faster Whisper inference with speculative decoding",
+    "stars": 10845,
+    "stars_this_week": 2315,
+    "velocity_score": 21.3,
+    "language": "Rust",
+    "topics": [
+      "audio",
+      "speech-to-text",
+      "whisper"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-05-02T04:37:00Z",
+    "created_at": "2024-06-06T00:00:00Z"
+  },
+  {
+    "id": 64826,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 15969,
+    "stars_this_week": 3356,
+    "velocity_score": 21.0,
+    "language": "TypeScript",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-05-02T17:08:00Z",
+    "created_at": "2023-10-09T00:00:00Z"
+  },
+  {
+    "id": 1222,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 21217,
+    "stars_this_week": 3869,
+    "velocity_score": 18.2,
+    "language": "Go",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-02T00:04:00Z",
+    "created_at": "2023-09-20T00:00:00Z"
+  },
+  {
+    "id": 42562,
+    "name": "qwen3",
+    "full_name": "QwenLM/Qwen3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "New generation language models with thinking and tool use",
+    "stars": 12752,
+    "stars_this_week": 1543,
+    "velocity_score": 12.1,
+    "language": "Rust",
+    "topics": [
+      "llm",
+      "reasoning",
+      "multimodal"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-02T03:06:00Z",
+    "created_at": "2025-06-08T00:00:00Z"
+  },
+  {
+    "id": 42597,
+    "name": "autogen",
+    "full_name": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "Multi-agent conversation framework by Microsoft Research",
+    "stars": 3528,
+    "stars_this_week": 388,
+    "velocity_score": 11.0,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "framework",
+      "microsoft"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-05-02T11:29:00Z",
+    "created_at": "2023-02-27T00:00:00Z"
+  },
+  {
+    "id": 37070,
+    "name": "text-generation-webui",
+    "full_name": "oobabooga/text-generation-webui",
+    "url": "https://github.com/oobabooga/text-generation-webui",
+    "description": "Gradio web UI for large language models",
+    "stars": 7872,
+    "stars_this_week": 728,
+    "velocity_score": 9.2,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "webui",
+      "local"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-05-02T07:21:00Z",
+    "created_at": "2024-08-07T00:00:00Z"
+  },
+  {
+    "id": 75777,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 14823,
+    "stars_this_week": 1177,
+    "velocity_score": 7.9,
+    "language": "TypeScript",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-05-02T01:11:00Z",
+    "created_at": "2025-06-18T00:00:00Z"
+  }
+]

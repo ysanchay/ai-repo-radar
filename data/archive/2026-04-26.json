@@ -1,0 +1,268 @@
+[
+  {
+    "id": 55922,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 20756,
+    "stars_this_week": 5332,
+    "velocity_score": 25.7,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-26T22:15:00Z",
+    "created_at": "2025-06-18T00:00:00Z"
+  },
+  {
+    "id": 83229,
+    "name": "diffusers",
+    "full_name": "huggingface/diffusers",
+    "url": "https://github.com/huggingface/diffusers",
+    "description": "State-of-the-art diffusion models for image and audio generation",
+    "stars": 935,
+    "stars_this_week": 237,
+    "velocity_score": 25.3,
+    "language": "TypeScript",
+    "topics": [
+      "vision",
+      "audio",
+      "generation"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-26T05:21:00Z",
+    "created_at": "2025-03-15T00:00:00Z"
+  },
+  {
+    "id": 90182,
+    "name": "whisper-turbo",
+    "full_name": "FL33TW00D/whisper-turbo",
+    "url": "https://github.com/FL33TW00D/whisper-turbo",
+    "description": "50x faster Whisper inference with speculative decoding",
+    "stars": 3043,
+    "stars_this_week": 757,
+    "velocity_score": 24.9,
+    "language": "Python",
+    "topics": [
+      "audio",
+      "speech-to-text",
+      "whisper"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-26T16:58:00Z",
+    "created_at": "2025-07-27T00:00:00Z"
+  },
+  {
+    "id": 69235,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes complete computer vision solutions",
+    "stars": 17250,
+    "stars_this_week": 4190,
+    "velocity_score": 24.3,
+    "language": "Python",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-26T18:52:00Z",
+    "created_at": "2025-03-07T00:00:00Z"
+  },
+  {
+    "id": 99001,
+    "name": "text-generation-webui",
+    "full_name": "oobabooga/text-generation-webui",
+    "url": "https://github.com/oobabooga/text-generation-webui",
+    "description": "Gradio web UI for large language models",
+    "stars": 13034,
+    "stars_this_week": 3102,
+    "velocity_score": 23.8,
+    "language": "C++",
+    "topics": [
+      "llm",
+      "webui",
+      "local"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-26T23:05:00Z",
+    "created_at": "2024-08-19T00:00:00Z"
+  },
+  {
+    "id": 20250,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 11172,
+    "stars_this_week": 2587,
+    "velocity_score": 23.2,
+    "language": "TypeScript",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-26T00:27:00Z",
+    "created_at": "2024-09-18T00:00:00Z"
+  },
+  {
+    "id": 98840,
+    "name": "crawl4ai",
+    "full_name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Open-source LLM-friendly web crawler and scraper",
+    "stars": 9555,
+    "stars_this_week": 1285,
+    "velocity_score": 13.4,
+    "language": "Rust",
+    "topics": [
+      "web-scraping",
+      "llm",
+      "tools"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-26T15:49:00Z",
+    "created_at": "2023-12-12T00:00:00Z"
+  },
+  {
+    "id": 76713,
+    "name": "open-reasoner-zero",
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "description": "Open source implementation of DeepSeek-R1 style reasoning with RL",
+    "stars": 22902,
+    "stars_this_week": 2550,
+    "velocity_score": 11.1,
+    "language": "Python",
+    "topics": [
+      "reasoning",
+      "llm",
+      "reinforcement-learning"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-26T20:24:00Z",
+    "created_at": "2024-12-19T00:00:00Z"
+  },
+  {
+    "id": 32068,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 5544,
+    "stars_this_week": 474,
+    "velocity_score": 8.5,
+    "language": "Python",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-26T12:52:00Z",
+    "created_at": "2023-01-12T00:00:00Z"
+  },
+  {
+    "id": 92817,
+    "name": "sglang",
+    "full_name": "sgl-project/sglang",
+    "url": "https://github.com/sgl-project/sglang",
+    "description": "Fast serving framework for LLMs and vision-language models",
+    "stars": 24539,
+    "stars_this_week": 2081,
+    "velocity_score": 8.5,
+    "language": "Rust",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-26T02:33:00Z",
+    "created_at": "2023-10-07T00:00:00Z"
+  },
+  {
+    "id": 75066,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 25994,
+    "stars_this_week": 1933,
+    "velocity_score": 7.4,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-26T00:57:00Z",
+    "created_at": "2023-05-27T00:00:00Z"
+  },
+  {
+    "id": 44763,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 26839,
+    "stars_this_week": 1245,
+    "velocity_score": 4.6,
+    "language": "Python",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-26T09:35:00Z",
+    "created_at": "2024-11-18T00:00:00Z"
+  },
+  {
+    "id": 55473,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 22673,
+    "stars_this_week": 881,
+    "velocity_score": 3.9,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "llm",
+      "local"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-26T00:51:00Z",
+    "created_at": "2025-04-22T00:00:00Z"
+  },
+  {
+    "id": 82107,
+    "name": "exo",
+    "full_name": "exo-explore/exo",
+    "url": "https://github.com/exo-explore/exo",
+    "description": "Run your own AI cluster at home",
+    "stars": 15398,
+    "stars_this_week": 481,
+    "velocity_score": 3.1,
+    "language": "Python",
+    "topics": [
+      "distributed",
+      "llm",
+      "local"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-26T05:35:00Z",
+    "created_at": "2023-04-05T00:00:00Z"
+  }
+]

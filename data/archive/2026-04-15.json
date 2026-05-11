@@ -1,0 +1,325 @@
+[
+  {
+    "id": 5470,
+    "name": "crewai",
+    "full_name": "crewAIInc/crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Framework for orchestrating role-playing autonomous AI agents",
+    "stars": 24988,
+    "stars_this_week": 4855,
+    "velocity_score": 19.4,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "framework",
+      "orchestration"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-15T23:51:00Z",
+    "created_at": "2025-03-18T00:00:00Z"
+  },
+  {
+    "id": 21633,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 24779,
+    "stars_this_week": 4655,
+    "velocity_score": 18.8,
+    "language": "Rust",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-15T06:02:00Z",
+    "created_at": "2024-03-26T00:00:00Z"
+  },
+  {
+    "id": 43905,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 21486,
+    "stars_this_week": 3285,
+    "velocity_score": 15.3,
+    "language": "TypeScript",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-15T21:34:00Z",
+    "created_at": "2024-05-24T00:00:00Z"
+  },
+  {
+    "id": 32328,
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "Building applications with LLMs through composability",
+    "stars": 21554,
+    "stars_this_week": 3012,
+    "velocity_score": 14.0,
+    "language": "Rust",
+    "topics": [
+      "framework",
+      "llm",
+      "tools"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-15T20:24:00Z",
+    "created_at": "2025-01-02T00:00:00Z"
+  },
+  {
+    "id": 35429,
+    "name": "anything-llm",
+    "full_name": "Mintplex-Labs/anything-llm",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "All-in-one AI desktop app",
+    "stars": 4628,
+    "stars_this_week": 611,
+    "velocity_score": 13.2,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "desktop",
+      "rag"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-15T12:09:00Z",
+    "created_at": "2025-01-15T00:00:00Z"
+  },
+  {
+    "id": 81391,
+    "name": "text-generation-webui",
+    "full_name": "oobabooga/text-generation-webui",
+    "url": "https://github.com/oobabooga/text-generation-webui",
+    "description": "Gradio web UI for large language models",
+    "stars": 23293,
+    "stars_this_week": 2967,
+    "velocity_score": 12.7,
+    "language": "Go",
+    "topics": [
+      "llm",
+      "webui",
+      "local"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-15T20:40:00Z",
+    "created_at": "2023-12-14T00:00:00Z"
+  },
+  {
+    "id": 92088,
+    "name": "gpt-pilot",
+    "full_name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot",
+    "description": "The first real AI developer \u2014 builds production apps from scratch",
+    "stars": 26695,
+    "stars_this_week": 3349,
+    "velocity_score": 12.5,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "coding-agent",
+      "llm"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-15T09:35:00Z",
+    "created_at": "2023-03-05T00:00:00Z"
+  },
+  {
+    "id": 59393,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 20080,
+    "stars_this_week": 2500,
+    "velocity_score": 12.5,
+    "language": "C++",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-15T17:59:00Z",
+    "created_at": "2023-05-13T00:00:00Z"
+  },
+  {
+    "id": 33742,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes complete computer vision solutions",
+    "stars": 14736,
+    "stars_this_week": 1775,
+    "velocity_score": 12.0,
+    "language": "Python",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-15T02:56:00Z",
+    "created_at": "2024-01-04T00:00:00Z"
+  },
+  {
+    "id": 36164,
+    "name": "open-reasoner-zero",
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "description": "Open source implementation of DeepSeek-R1 style reasoning with RL",
+    "stars": 1157,
+    "stars_this_week": 94,
+    "velocity_score": 8.1,
+    "language": "Python",
+    "topics": [
+      "reasoning",
+      "llm",
+      "reinforcement-learning"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-15T08:50:00Z",
+    "created_at": "2023-08-09T00:00:00Z"
+  },
+  {
+    "id": 53684,
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "Open-source RAG engine",
+    "stars": 10692,
+    "stars_this_week": 830,
+    "velocity_score": 7.8,
+    "language": "TypeScript",
+    "topics": [
+      "rag",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-15T03:01:00Z",
+    "created_at": "2023-04-24T00:00:00Z"
+  },
+  {
+    "id": 36399,
+    "name": "llama-cpp-agent",
+    "full_name": "Maximilian-Winter/llama-cpp-agent",
+    "url": "https://github.com/Maximilian-Winter/llama-cpp-agent",
+    "description": "Easy-to-use AI agent framework built on llama-cpp-python",
+    "stars": 2824,
+    "stars_this_week": 197,
+    "velocity_score": 7.0,
+    "language": "C++",
+    "topics": [
+      "agents",
+      "llm",
+      "local"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-15T20:03:00Z",
+    "created_at": "2023-02-07T00:00:00Z"
+  },
+  {
+    "id": 80927,
+    "name": "ollama",
+    "full_name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Get up and running with large language models locally",
+    "stars": 25898,
+    "stars_this_week": 1313,
+    "velocity_score": 5.1,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "local",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-15T22:40:00Z",
+    "created_at": "2024-07-14T00:00:00Z"
+  },
+  {
+    "id": 61871,
+    "name": "diffusers",
+    "full_name": "huggingface/diffusers",
+    "url": "https://github.com/huggingface/diffusers",
+    "description": "State-of-the-art diffusion models for image and audio generation",
+    "stars": 14411,
+    "stars_this_week": 695,
+    "velocity_score": 4.8,
+    "language": "Python",
+    "topics": [
+      "vision",
+      "audio",
+      "generation"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-15T10:39:00Z",
+    "created_at": "2024-12-22T00:00:00Z"
+  },
+  {
+    "id": 54273,
+    "name": "qwen3",
+    "full_name": "QwenLM/Qwen3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "New generation language models with thinking and tool use",
+    "stars": 17362,
+    "stars_this_week": 796,
+    "velocity_score": 4.6,
+    "language": "Go",
+    "topics": [
+      "llm",
+      "reasoning",
+      "multimodal"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-15T06:56:00Z",
+    "created_at": "2024-07-01T00:00:00Z"
+  },
+  {
+    "id": 39224,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 8411,
+    "stars_this_week": 368,
+    "velocity_score": 4.4,
+    "language": "TypeScript",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-15T05:36:00Z",
+    "created_at": "2025-03-11T00:00:00Z"
+  },
+  {
+    "id": 62997,
+    "name": "aider",
+    "full_name": "paul-gauthier/aider",
+    "url": "https://github.com/paul-gauthier/aider",
+    "description": "AI pair programming in your terminal",
+    "stars": 25672,
+    "stars_this_week": 581,
+    "velocity_score": 2.3,
+    "language": "Python",
+    "topics": [
+      "coding-agent",
+      "terminal",
+      "llm"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-15T07:27:00Z",
+    "created_at": "2025-07-22T00:00:00Z"
+  }
+]

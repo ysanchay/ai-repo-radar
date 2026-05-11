@@ -1,0 +1,325 @@
+[
+  {
+    "id": 22651,
+    "name": "ollama",
+    "full_name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Get up and running with large language models locally",
+    "stars": 9697,
+    "stars_this_week": 1943,
+    "velocity_score": 20.0,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "local",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-13T11:44:00Z",
+    "created_at": "2024-05-19T00:00:00Z"
+  },
+  {
+    "id": 42971,
+    "name": "qwen3",
+    "full_name": "QwenLM/Qwen3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "New generation language models with thinking and tool use",
+    "stars": 14505,
+    "stars_this_week": 2657,
+    "velocity_score": 18.3,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "reasoning",
+      "multimodal"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-13T19:47:00Z",
+    "created_at": "2024-05-08T00:00:00Z"
+  },
+  {
+    "id": 95707,
+    "name": "diffusers",
+    "full_name": "huggingface/diffusers",
+    "url": "https://github.com/huggingface/diffusers",
+    "description": "State-of-the-art diffusion models for image and audio generation",
+    "stars": 6523,
+    "stars_this_week": 1032,
+    "velocity_score": 15.8,
+    "language": "Go",
+    "topics": [
+      "vision",
+      "audio",
+      "generation"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-13T17:02:00Z",
+    "created_at": "2024-08-13T00:00:00Z"
+  },
+  {
+    "id": 56541,
+    "name": "vllm",
+    "full_name": "vllm-project/vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput and memory-efficient inference engine for LLMs",
+    "stars": 15549,
+    "stars_this_week": 2444,
+    "velocity_score": 15.7,
+    "language": "C++",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-13T19:13:00Z",
+    "created_at": "2023-02-03T00:00:00Z"
+  },
+  {
+    "id": 54892,
+    "name": "vision-agent",
+    "full_name": "landing-ai/vision-agent",
+    "url": "https://github.com/landing-ai/vision-agent",
+    "description": "Vision AI agent that codes complete computer vision solutions",
+    "stars": 24272,
+    "stars_this_week": 3012,
+    "velocity_score": 12.4,
+    "language": "Python",
+    "topics": [
+      "vision",
+      "computer-vision",
+      "agents"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-13T02:38:00Z",
+    "created_at": "2024-03-16T00:00:00Z"
+  },
+  {
+    "id": 28160,
+    "name": "langchain",
+    "full_name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "description": "Building applications with LLMs through composability",
+    "stars": 14626,
+    "stars_this_week": 1769,
+    "velocity_score": 12.1,
+    "language": "Rust",
+    "topics": [
+      "framework",
+      "llm",
+      "tools"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-13T23:42:00Z",
+    "created_at": "2023-11-24T00:00:00Z"
+  },
+  {
+    "id": 74742,
+    "name": "ragflow",
+    "full_name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "Open-source RAG engine",
+    "stars": 15095,
+    "stars_this_week": 1711,
+    "velocity_score": 11.3,
+    "language": "TypeScript",
+    "topics": [
+      "rag",
+      "llm",
+      "tools"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-13T08:07:00Z",
+    "created_at": "2023-06-10T00:00:00Z"
+  },
+  {
+    "id": 95944,
+    "name": "dify",
+    "full_name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Open-source LLM app development platform",
+    "stars": 8045,
+    "stars_this_week": 740,
+    "velocity_score": 9.2,
+    "language": "Rust",
+    "topics": [
+      "llm",
+      "platform",
+      "tools"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-13T01:52:00Z",
+    "created_at": "2023-08-02T00:00:00Z"
+  },
+  {
+    "id": 1841,
+    "name": "sglang",
+    "full_name": "sgl-project/sglang",
+    "url": "https://github.com/sgl-project/sglang",
+    "description": "Fast serving framework for LLMs and vision-language models",
+    "stars": 22276,
+    "stars_this_week": 1946,
+    "velocity_score": 8.7,
+    "language": "Python",
+    "topics": [
+      "llm",
+      "inference",
+      "serving"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-13T14:16:00Z",
+    "created_at": "2025-02-22T00:00:00Z"
+  },
+  {
+    "id": 20207,
+    "name": "jan-ai",
+    "full_name": "janhq/jan",
+    "url": "https://github.com/janhq/jan",
+    "description": "Open source ChatGPT alternative that runs 100% offline",
+    "stars": 19082,
+    "stars_this_week": 1570,
+    "velocity_score": 8.2,
+    "language": "TypeScript",
+    "topics": [
+      "llm",
+      "desktop",
+      "local"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-13T11:52:00Z",
+    "created_at": "2025-10-05T00:00:00Z"
+  },
+  {
+    "id": 32578,
+    "name": "agentmemory",
+    "full_name": "rohitg00/agentmemory",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "description": "Persistent memory for AI coding agents \u2014 95.2% retrieval accuracy",
+    "stars": 16756,
+    "stars_this_week": 1283,
+    "velocity_score": 7.7,
+    "language": "Python",
+    "topics": [
+      "memory",
+      "agents",
+      "mcp"
+    ],
+    "summary": "Battle-tested in production environments. Strong documentation and excellent developer experience.",
+    "updated_at": "2026-04-13T19:24:00Z",
+    "created_at": "2023-04-24T00:00:00Z"
+  },
+  {
+    "id": 39771,
+    "name": "smolagents",
+    "full_name": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Minimal framework for building powerful agents with code execution",
+    "stars": 17079,
+    "stars_this_week": 1099,
+    "velocity_score": 6.4,
+    "language": "Go",
+    "topics": [
+      "agents",
+      "llm",
+      "huggingface"
+    ],
+    "summary": "Emerging as a leader in its category. Clean architecture and thoughtful API design.",
+    "updated_at": "2026-04-13T16:50:00Z",
+    "created_at": "2025-01-06T00:00:00Z"
+  },
+  {
+    "id": 66163,
+    "name": "autogen",
+    "full_name": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "Multi-agent conversation framework by Microsoft Research",
+    "stars": 19860,
+    "stars_this_week": 1188,
+    "velocity_score": 6.0,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "framework",
+      "microsoft"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-13T22:59:00Z",
+    "created_at": "2024-06-08T00:00:00Z"
+  },
+  {
+    "id": 24433,
+    "name": "crawl4ai",
+    "full_name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Open-source LLM-friendly web crawler and scraper",
+    "stars": 18035,
+    "stars_this_week": 1023,
+    "velocity_score": 5.7,
+    "language": "Python",
+    "topics": [
+      "web-scraping",
+      "llm",
+      "tools"
+    ],
+    "summary": "Rapidly gaining traction in the AI community. High-quality codebase with active development.",
+    "updated_at": "2026-04-13T01:02:00Z",
+    "created_at": "2025-01-13T00:00:00Z"
+  },
+  {
+    "id": 75933,
+    "name": "exo",
+    "full_name": "exo-explore/exo",
+    "url": "https://github.com/exo-explore/exo",
+    "description": "Run your own AI cluster at home",
+    "stars": 13206,
+    "stars_this_week": 737,
+    "velocity_score": 5.6,
+    "language": "Python",
+    "topics": [
+      "distributed",
+      "llm",
+      "local"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-13T12:58:00Z",
+    "created_at": "2023-05-08T00:00:00Z"
+  },
+  {
+    "id": 25355,
+    "name": "open-reasoner-zero",
+    "full_name": "Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "url": "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+    "description": "Open source implementation of DeepSeek-R1 style reasoning with RL",
+    "stars": 24163,
+    "stars_this_week": 1236,
+    "velocity_score": 5.1,
+    "language": "C++",
+    "topics": [
+      "reasoning",
+      "llm",
+      "reinforcement-learning"
+    ],
+    "summary": "Solving a critical pain point for AI developers. Elegant implementation with broad applicability.",
+    "updated_at": "2026-04-13T12:31:00Z",
+    "created_at": "2025-02-04T00:00:00Z"
+  },
+  {
+    "id": 55925,
+    "name": "mlx",
+    "full_name": "ml-explore/mlx",
+    "url": "https://github.com/ml-explore/mlx",
+    "description": "ML framework by Apple for Apple Silicon",
+    "stars": 20150,
+    "stars_this_week": 756,
+    "velocity_score": 3.8,
+    "language": "Python",
+    "topics": [
+      "framework",
+      "macos",
+      "metal"
+    ],
+    "summary": "One of the most innovative tools in the AI ecosystem. Growing community and frequent releases.",
+    "updated_at": "2026-04-13T20:15:00Z",
+    "created_at": "2025-12-03T00:00:00Z"
+  }
+]
