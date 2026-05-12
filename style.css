@@ -241,7 +241,38 @@ body {
   z-index: 1;
 }
 
-.repo-grid {
+/* Date sections */
+.date-section {
+  margin-bottom: 2rem;
+}
+
+.date-header {
+  position: sticky;
+  top: 80px;
+  z-index: 90;
+  background: var(--header-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.date-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 0 0 1rem 0;
+  opacity: 0.5;
+}
+
+.date-section .repo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
   gap: 1rem;
@@ -648,6 +679,7 @@ body {
   .search-wrap { max-width: none; }
   .filter-tabs { overflow-x: auto; padding-bottom: 0.25rem; }
   .detail-actions { flex-direction: column; }
+  .date-header { top: 110px; font-size: 0.9rem; padding: 0.5rem 0.75rem; }
 }
 
 @media (max-width: 480px) {
@@ -656,4 +688,5 @@ body {
   .main-content { padding: 1rem; }
   .repo-card { padding: 1rem; }
   .repo-name { font-size: 0.9rem; }
+  .date-header { top: 95px; font-size: 0.85rem; }
 }

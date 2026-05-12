@@ -1,6 +1,6 @@
-// === AI Repo Radar — App Logic ===
-const DATA_URL = 'data/repos.json';
-let repos = [];
+// === AI Repo Radar — App Logic (All Dates) ===
+const ARCHIVE_INDEX_URL = '/data/archive/index.json';
+let allReposByDate = [];
 let activeCategory = 'all';
 let activeSearch = '';
 
@@ -19,11 +19,39 @@ function getVelocityEmoji(score) {
   return '✨';
 }
 
+function formatDateLabel(dateStr, index, todayStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const fmt = d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  if (index === 0 && dateStr === todayStr) return `📅 Today — ${fmt}`;
+  if (index === 0) return `📅 ${fmt}`;
+  if (index === 1 && dateStr === getYesterdayStr(todayStr)) return `📅 Yesterday — ${fmt}`;
+  return `📅 ${fmt}`;
+}
+
+function getYesterdayStr(todayStr) {
+  const d = new Date(todayStr + 'T00:00:00');
+  d.setDate(d.getDate() - 1);
+  return d.toISOString().split('T')[0];
+}
+
 async function loadData() {
   try {
-    const res = await fetch(DATA_URL);
-    const data = await res.json();
-    repos = data;
+    const res = await fetch(ARCHIVE_INDEX_URL);
+    const index = await res.json();
+    if (!index.length) throw new Error('Empty archive');
+
+    // Load all date files
+    const entries = [];
+    for (const item of index) {
+      try {
+        const r = await fetch(`/data/archive/${item.date}.json`);
+        const repos = await r.json();
+        entries.push({ date: item.date, repos });
+      } catch (e) {
+        console.warn('Failed to load', item.date, e);
+      }
+    }
+    allReposByDate = entries;
     init();
   } catch {
     loadSampleData();
@@ -31,91 +59,90 @@ async function loadData() {
 }
 
 function loadSampleData() {
-  repos = [
-    {
-      id: 1, name: "gpt-pilot", full_name: "Pythagora-io/gpt-pilot",
-      url: "https://github.com/Pythagora-io/gpt-pilot",
-      description: "The first real AI developer — builds production apps from scratch",
-      stars: 31200, stars_this_week: 2840, velocity_score: 9.1,
-      language: "Python", topics: ["ai", "coding-agent", "llm"],
-      summary: "AI coding agent that builds full production applications from natural language specs. Uses LLMs to plan, code, debug, and deploy complete apps with minimal human input.",
-      updated_at: "2026-05-09T12:00:00Z"
-    },
-    {
-      id: 2, name: "sglang", full_name: "sgl-project/sglang",
-      url: "https://github.com/sgl-project/sglang",
-      description: "SGLang is a fast serving framework for large language models and vision-language models",
-      stars: 15200, stars_this_week: 1890, velocity_score: 12.4,
-      language: "Python", topics: ["llm", "inference", "serving"],
-      summary: "High-performance LLM serving framework with structured generation. Achieves 5x faster inference than vLLM on certain workloads with its RadixAttention mechanism.",
-      updated_at: "2026-05-10T01:00:00Z"
-    },
-    {
-      id: 3, name: "smolagents", full_name: "huggingface/smolagents",
-      url: "https://github.com/huggingface/smolagents",
-      description: "Minimal framework for building powerful agents with code execution",
-      stars: 8900, stars_this_week: 3200, velocity_score: 36.0,
-      language: "Python", topics: ["agents", "llm", "huggingface"],
-      summary: "Lightweight agent framework from Hugging Face. Agents write and execute Python code to solve tasks. Supports any LLM backend. Code-first design means agents actually work.",
-      updated_at: "2026-05-09T18:00:00Z"
-    },
-    {
-      id: 4, name: "open-reasoner-zero", full_name: "Open-Reasoner-Zero/Open-Reasoner-Zero",
-      url: "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
-      description: "Open source implementation of DeepSeek-R1 style reasoning with RL",
-      stars: 6200, stars_this_week: 4100, velocity_score: 66.1,
-      language: "Python", topics: ["reasoning", "llm", "reinforcement-learning"],
-      summary: "Open reproduction of DeepSeek-R1's reasoning capabilities using reinforcement learning. Achieves strong reasoning with open models, narrowing the gap with proprietary systems.",
-      updated_at: "2026-05-10T02:00:00Z"
-    },
-    {
-      id: 5, name: "llama-cpp-agent", full_name: "Maximilian-Winter/llama-cpp-agent",
-      url: "https://github.com/Maximilian-Winter/llama-cpp-agent",
-      description: "Easy-to-use AI agent framework built on llama-cpp-python",
-      stars: 3400, stars_this_week: 980, velocity_score: 28.8,
-      language: "Python", topics: ["agents", "llm", "local"],
-      summary: "Agent framework for local LLMs. Function calling, memory, RAG, and web search — all running locally with quantized models on consumer hardware.",
-      updated_at: "2026-05-08T09:00:00Z"
-    },
-    {
-      id: 6, name: "whisper-turbo", full_name: "FL33TW00D/whisper-turbo",
-      url: "https://github.com/FL33TW00D/whisper-turbo",
-      description: "50x faster Whisper inference with speculative decoding",
-      stars: 2800, stars_this_week: 2100, velocity_score: 75.0,
-      language: "Python", topics: ["audio", "speech-to-text", "whisper"],
-      summary: "Radically faster Whisper speech recognition using speculative decoding. Real-time transcription on consumer GPUs. Drop-in replacement for OpenAI Whisper.",
-      updated_at: "2026-05-09T22:00:00Z"
-    },
-    {
-      id: 7, name: "agentmemory", full_name: "rohitg00/agentmemory",
-      url: "https://github.com/rohitg00/agentmemory",
-      description: "Persistent memory for AI coding agents — 95.2% retrieval accuracy",
-      stars: 5100, stars_this_week: 1400, velocity_score: 27.5,
-      language: "TypeScript", topics: ["memory", "agents", "mcp"],
-      summary: "Cross-session memory engine for AI coding agents. Works with Claude Code, Cursor, Gemini CLI, and OpenClaw. BM25+Vector+Graph hybrid search with auto-forget.",
-      updated_at: "2026-05-09T14:00:00Z"
-    },
-    {
-      id: 8, name: "jan-ai", full_name: "janhq/jan",
-      url: "https://github.com/janhq/jan",
-      description: "Open source ChatGPT alternative that runs 100% offline",
-      stars: 24200, stars_this_week: 890, velocity_score: 3.7,
-      language: "TypeScript", topics: ["llm", "desktop", "local"],
-      summary: "Desktop app for running LLMs locally. Clean UI, model library, and inference engine. Supports GGUF models. Open source alternative to ChatGPT desktop.",
-      updated_at: "2026-05-07T16:00:00Z"
-    }
-  ];
+  allReposByDate = [{
+    date: new Date().toISOString().split('T')[0],
+    repos: [
+      {
+        id: 1, name: "gpt-pilot", full_name: "Pythagora-io/gpt-pilot",
+        url: "https://github.com/Pythagora-io/gpt-pilot",
+        description: "The first real AI developer — builds production apps from scratch",
+        stars: 31200, stars_this_week: 2840, velocity_score: 9.1,
+        language: "Python", topics: ["ai", "coding-agent", "llm"],
+        summary: "AI coding agent that builds full production applications from natural language specs. Uses LLMs to plan, code, debug, and deploy complete apps with minimal human input."
+      },
+      {
+        id: 2, name: "sglang", full_name: "sgl-project/sglang",
+        url: "https://github.com/sgl-project/sglang",
+        description: "SGLang is a fast serving framework for large language models and vision-language models",
+        stars: 15200, stars_this_week: 1890, velocity_score: 12.4,
+        language: "Python", topics: ["llm", "inference", "serving"],
+        summary: "High-performance LLM serving framework with structured generation. Achieves 5x faster inference than vLLM on certain workloads with its RadixAttention mechanism."
+      },
+      {
+        id: 3, name: "smolagents", full_name: "huggingface/smolagents",
+        url: "https://github.com/huggingface/smolagents",
+        description: "Minimal framework for building powerful agents with code execution",
+        stars: 8900, stars_this_week: 3200, velocity_score: 36.0,
+        language: "Python", topics: ["agents", "llm", "huggingface"],
+        summary: "Lightweight agent framework from Hugging Face. Agents write and execute Python code to solve tasks. Supports any LLM backend. Code-first design means agents actually work."
+      },
+      {
+        id: 4, name: "open-reasoner-zero", full_name: "Open-Reasoner-Zero/Open-Reasoner-Zero",
+        url: "https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero",
+        description: "Open source implementation of DeepSeek-R1 style reasoning with RL",
+        stars: 6200, stars_this_week: 4100, velocity_score: 66.1,
+        language: "Python", topics: ["reasoning", "llm", "reinforcement-learning"],
+        summary: "Open reproduction of DeepSeek-R1's reasoning capabilities using reinforcement learning. Achieves strong reasoning with open models, narrowing the gap with proprietary systems."
+      },
+      {
+        id: 5, name: "llama-cpp-agent", full_name: "Maximilian-Winter/llama-cpp-agent",
+        url: "https://github.com/Maximilian-Winter/llama-cpp-agent",
+        description: "Easy-to-use AI agent framework built on llama-cpp-python",
+        stars: 3400, stars_this_week: 980, velocity_score: 28.8,
+        language: "Python", topics: ["agents", "llm", "local"],
+        summary: "Agent framework for local LLMs. Function calling, memory, RAG, and web search — all running locally with quantized models on consumer hardware."
+      },
+      {
+        id: 6, name: "whisper-turbo", full_name: "FL33TW00D/whisper-turbo",
+        url: "https://github.com/FL33TW00D/whisper-turbo",
+        description: "50x faster Whisper inference with speculative decoding",
+        stars: 2800, stars_this_week: 2100, velocity_score: 75.0,
+        language: "Python", topics: ["audio", "speech-to-text", "whisper"],
+        summary: "Radically faster Whisper speech recognition using speculative decoding. Real-time transcription on consumer GPUs. Drop-in replacement for OpenAI Whisper."
+      },
+      {
+        id: 7, name: "agentmemory", full_name: "rohitg00/agentmemory",
+        url: "https://github.com/rohitg00/agentmemory",
+        description: "Persistent memory for AI coding agents — 95.2% retrieval accuracy",
+        stars: 5100, stars_this_week: 1400, velocity_score: 27.5,
+        language: "TypeScript", topics: ["memory", "agents", "mcp"],
+        summary: "Cross-session memory engine for AI coding agents. Works with Claude Code, Cursor, Gemini CLI, and OpenClaw. BM25+Vector+Graph hybrid search with auto-forget."
+      },
+      {
+        id: 8, name: "jan-ai", full_name: "janhq/jan",
+        url: "https://github.com/janhq/jan",
+        description: "Open source ChatGPT alternative that runs 100% offline",
+        stars: 24200, stars_this_week: 890, velocity_score: 3.7,
+        language: "TypeScript", topics: ["llm", "desktop", "local"],
+        summary: "Desktop app for running LLMs locally. Clean UI, model library, and inference engine. Supports GGUF models. Open source alternative to ChatGPT desktop."
+      }
+    ]
+  }];
   init();
 }
 
 function init() {
-  // Sort by velocity score
-  repos.sort((a, b) => b.velocity_score - a.velocity_score);
+  // Sort repos within each date by velocity score
+  allReposByDate.forEach(entry => {
+    entry.repos.sort((a, b) => b.velocity_score - a.velocity_score);
+  });
 
-  // Extract categories from topics
+  // Extract categories from all repos
   const cats = new Set(['all']);
-  repos.forEach(r => {
-    (r.topics || []).forEach(t => cats.add(t));
+  allReposByDate.forEach(entry => {
+    entry.repos.forEach(r => {
+      (r.topics || []).forEach(t => cats.add(t));
+    });
   });
 
   // Build filter tabs
@@ -144,11 +171,16 @@ function init() {
   });
 
   // Update stats
-  document.getElementById('statCount').textContent = repos.length;
-  document.getElementById('statStars').textContent = formatNum(
-    repos.reduce((s, r) => s + r.stars, 0)
-  );
-  document.getElementById('statHot').textContent = repos[0]?.name || '—';
+  const totalRepos = allReposByDate.reduce((s, e) => s + e.repos.length, 0);
+  const totalStars = allReposByDate.reduce((s, e) => s + e.repos.reduce((ss, r) => ss + (r.stars || 0), 0), 0);
+  let hottest = null;
+  allReposByDate.forEach(e => e.repos.forEach(r => {
+    if (!hottest || r.velocity_score > hottest.velocity_score) hottest = r;
+  }));
+
+  document.getElementById('statCount').textContent = totalRepos;
+  document.getElementById('statStars').textContent = formatNum(totalStars);
+  document.getElementById('statHot').textContent = hottest?.name || '—';
 
   // Render
   render();
@@ -170,33 +202,21 @@ function filterBy(cat) {
   render();
 }
 
-function render() {
-  let filtered = repos;
-
+function matchesFilters(r) {
   if (activeCategory !== 'all') {
-    filtered = filtered.filter(r => (r.topics || []).includes(activeCategory));
+    if (!(r.topics || []).includes(activeCategory)) return false;
   }
-
   if (activeSearch) {
-    filtered = filtered.filter(r =>
-      r.name.toLowerCase().includes(activeSearch) ||
-      r.description.toLowerCase().includes(activeSearch) ||
-      (r.topics || []).join(' ').toLowerCase().includes(activeSearch) ||
-      r.language?.toLowerCase().includes(activeSearch)
-    );
+    const hay = [
+      r.name, r.description, (r.topics || []).join(' '), r.language, r.full_name
+    ].join(' ').toLowerCase();
+    if (!hay.includes(activeSearch)) return false;
   }
+  return true;
+}
 
-  const grid = document.getElementById('repoGrid');
-  const empty = document.getElementById('emptyState');
-
-  if (filtered.length === 0) {
-    grid.innerHTML = '';
-    empty.style.display = 'block';
-    return;
-  }
-
-  empty.style.display = 'none';
-  grid.innerHTML = filtered.map(r => `
+function repoCardHTML(r) {
+  return `
     <div class="repo-card" onclick="window.open('/repo.html?id=${r.id}', '_self')">
       <div class="repo-card-header">
         <div>
@@ -224,7 +244,41 @@ function render() {
         </div>
       </div>
     </div>
-  `).join('');
+  `;
+}
+
+function render() {
+  const container = document.getElementById('dateSections');
+  const empty = document.getElementById('emptyState');
+  const todayStr = new Date().toISOString().split('T')[0];
+
+  let hasAny = false;
+  let html = '';
+
+  allReposByDate.forEach((entry, idx) => {
+    const filtered = entry.repos.filter(matchesFilters);
+    if (filtered.length === 0) return;
+    hasAny = true;
+
+    html += `
+      <section class="date-section">
+        <h2 class="date-header">${formatDateLabel(entry.date, idx, todayStr)}</h2>
+        <div class="date-divider"></div>
+        <div class="repo-grid">
+          ${filtered.map(repoCardHTML).join('')}
+        </div>
+      </section>
+    `;
+  });
+
+  if (!hasAny) {
+    container.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+
+  empty.style.display = 'none';
+  container.innerHTML = html;
 }
 
 function formatNum(n) {
@@ -238,7 +292,6 @@ function subscribeNewsletter(e) {
   e.preventDefault();
   const input = e.target.querySelector('input');
   const email = input.value;
-  // Placeholder — wire to Buttondown API later
   alert(`✅ Thanks! We'll send daily digests to ${email}`);
   input.value = '';
 }
@@ -294,7 +347,6 @@ function initBackground() {
       ctx.fillStyle = `rgba(${color},${0.15 + p.r * 0.05})`;
       ctx.fill();
 
-      // Draw connections
       for (let j = i + 1; j < particles.length; j++) {
         const dx = p.x - particles[j].x, dy = p.y - particles[j].y;
         const dist = Math.sqrt(dx * dx + dy * dy);
