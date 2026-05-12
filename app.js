@@ -197,7 +197,7 @@ function render() {
 
   empty.style.display = 'none';
   grid.innerHTML = filtered.map(r => `
-    <div class="repo-card" onclick="window.open('repo.html?id=${r.id}', '_self')">
+    <div class="repo-card" onclick="window.open('/repo.html?id=${r.id}', '_self')">
       <div class="repo-card-header">
         <div>
           <div class="repo-name">${r.full_name.split('/')[1]}</div>

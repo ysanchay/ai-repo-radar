@@ -13,7 +13,7 @@
 
 <header class="header">
   <div class="header-inner">
-    <a href="index.html" class="logo" style="text-decoration:none;color:inherit">
+    <a href="/" class="logo" style="text-decoration:none;color:inherit">
       <span class="logo-icon">◈</span>
       <div>
         <h1>AI Repo Radar</h1>
@@ -36,7 +36,7 @@
 </footer>
 
 <script>
-const DATA_URL = 'data/repos.json';
+const DATA_URL = '/data/repos.json';
 const params = new URLSearchParams(window.location.search);
 const repoId = parseInt(params.get('id'));
 
@@ -58,10 +58,10 @@ async function load() {
     const res = await fetch(DATA_URL);
     const repos = await res.json();
     const repo = repos.find(r => r.id === repoId);
-    if (!repo) { document.getElementById('repoDetail').innerHTML = '<p>Repo not found. <a href="index.html">Back home</a></p>'; return; }
+    if (!repo) { document.getElementById('repoDetail').innerHTML = '<p>Repo not found. <a href="/">Back home</a></p>'; return; }
     render(repo, repos);
   } catch(e) {
-    document.getElementById('repoDetail').innerHTML = '<p>Error loading data. <a href="index.html">Back home</a></p>';
+    document.getElementById('repoDetail').innerHTML = '<p>Error loading data. <a href="/">Back home</a></p>';
   }
 }
 
@@ -73,7 +73,7 @@ function render(repo, allRepos) {
   document.title = `${repo.full_name} — AI Repo Radar`;
 
   document.getElementById('repoDetail').innerHTML = `
-    <a href="index.html" class="back-link">← Back to Radar</a>
+    <a href="/" class="back-link">← Back to Radar</a>
     <div class="repo-detail-header">
       <h1 class="repo-detail-name">${repo.full_name.split('/')[1]}</h1>
       <div class="repo-detail-owner">by <strong>${repo.full_name.split('/')[0]}</strong></div>
@@ -164,7 +164,7 @@ function copyLink() {
   navigator.clipboard.writeText(window.location.href).then(() => alert('✅ Link copied!'));
 }
 
-if (!repoId) document.getElementById('repoDetail').innerHTML = '<p>No repo specified. <a href="index.html">Browse trending repos</a></p>';
+if (!repoId) document.getElementById('repoDetail').innerHTML = '<p>No repo specified. <a href="/">Browse trending repos</a></p>';
 else load();
 
 // Background

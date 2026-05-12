@@ -13,7 +13,7 @@
 
 <header class="header">
   <div class="header-inner">
-    <a href="index.html" class="logo" style="text-decoration:none;color:inherit">
+    <a href="/" class="logo" style="text-decoration:none;color:inherit">
       <span class="logo-icon">◈</span>
       <div>
         <h1>AI Repo Radar</h1>
@@ -43,14 +43,14 @@
 async function loadArchive() {
   const list = document.getElementById('dateList');
   try {
-    const res = await fetch('data/archive/index.json');
+    const res = await fetch('/data/archive/index.json');
     const dates = await res.json();
     if (!dates.length) {
       list.innerHTML = '<p style="color:var(--text-muted)">No archived dates yet. Check back after the first daily refresh.</p>';
       return;
     }
     list.innerHTML = dates.map(d => `
-      <a href="archive.html?date=${d.date}" class="date-item">
+      <a href="/archive.html?date=${d.date}" class="date-item">
         <span class="date-item-date">${formatDate(d.date)}</span>
         <span class="date-item-count">${d.count} repos</span>
       </a>
@@ -58,7 +58,7 @@ async function loadArchive() {
   } catch(e) {
     const current = new Date().toISOString().split('T')[0];
     list.innerHTML = `
-      <a href="archive.html?date=${current}" class="date-item">
+      <a href="/archive.html?date=${current}" class="date-item">
         <span class="date-item-date">${formatDate(current)} (today)</span>
         <span class="date-item-count">loading...</span>
       </a>
@@ -77,13 +77,13 @@ async function loadArchive() {
 async function loadDate(date) {
   const list = document.getElementById('dateList');
   try {
-    const res = await fetch(`data/archive/${date}.json`);
+    const res = await fetch(`/data/archive/${date}.json`);
     const repos = await res.json();
     document.querySelector('.archive-header h2').textContent = `📅 ${formatDate(date)}`;
     document.querySelector('.archive-header p').textContent = `${repos.length} trending repos`;
 
     list.innerHTML = repos.map(r => `
-      <a href="repo.html?id=${r.id}" class="date-item" style="flex-direction:column;align-items:flex-start;gap:0.25rem">
+      <a href="/repo.html?id=${r.id}" class="date-item" style="flex-direction:column;align-items:flex-start;gap:0.25rem">
         <span style="font-weight:600">${r.full_name.split('/')[1]}</span>
         <span style="font-size:0.8rem;color:var(--text-muted)">${r.description.substring(0, 120)}</span>
         <div style="display:flex;gap:0.75rem;margin-top:0.25rem">
@@ -93,7 +93,7 @@ async function loadDate(date) {
       </a>
     `).join('');
   } catch(e) {
-    list.innerHTML = `<p style="color:var(--text-muted)">No data for ${date}. <a href="archive.html">Back to archive</a></p>`;
+    list.innerHTML = `<p style="color:var(--text-muted)">No data for ${date}. <a href="/archive.html">Back to archive</a></p>`;
   }
 }
 
