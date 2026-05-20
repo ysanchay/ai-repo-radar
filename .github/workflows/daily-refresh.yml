@@ -31,10 +31,34 @@ jobs:
           git diff --staged --quiet || git commit -m "📡 Daily refresh: $(date +%Y-%m-%d)"
           git push
       
-      - name: Build and deploy to Cloudflare
+      - name: Install wrangler
+        run: npm install wrangler
+      
+      - name: Deploy to Cloudflare (attempt 1)
+        id: deploy1
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
         run: |
-          npm install wrangler
+          npx wrangler pages deploy . --project-name ai-repo-radar --branch main || echo "DEPLOY_FAILED=1" >> $GITHUB_ENV
+        continue-on-error: true
+      
+      - name: Deploy to Cloudflare (attempt 2)
+        if: env.DEPLOY_FAILED == '1'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        run: |
+          sleep 10
           npx wrangler pages deploy . --project-name ai-repo-radar --branch main
+      
+      - name: Notify on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "parse_mode=Markdown" \
+            -d "text=🚨 *AI Repo Radar Deploy Failed*%0A%0AGitHub Actions deploy step failed on $(date +%Y-%m-%d).%0A%0AAction: Check CF_API_TOKEN and CF_ACCOUNT_ID secrets.%0A%0AServer backup deploy will run at 9:15 AM IST."
