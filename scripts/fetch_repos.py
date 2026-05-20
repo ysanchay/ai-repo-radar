@@ -300,6 +300,28 @@ def main():
     print("5. Saving data...")
     result = save_data(repos)
 
+    # ── Auto-deploy to Cloudflare Pages ──
+    print("6. Deploying to Cloudflare Pages...")
+    deploy_script = Path("/home/claw/.openclaw/workspace/sancompany/aireporadar/scripts/deploy.sh")
+    if deploy_script.exists():
+        import subprocess, os
+        env_file = Path("/home/claw/.openclaw/workspace/sancompany/secrets/.env")
+        env = os.environ.copy()
+        if env_file.exists():
+            with open(env_file) as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        k, v = line.split('=', 1)
+                        env[k] = v
+        deploy_res = subprocess.run([str(deploy_script)], capture_output=True, text=True, env=env, cwd=str(Path(__file__).parent.parent))
+        if deploy_res.returncode == 0:
+            print("   ✅ Deployed!")
+        else:
+            print("   ⚠️  Deploy failed (see /tmp/airepo_deploy.log)")
+    else:
+        print("   ⚠️  deploy.sh not found, skipping")
+
     print()
     print(f"✅ Done! {len(result)} repos saved.")
     print(f"   Top 5 by velocity:")
